@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Page 1: Do you have val? -->
+        <div id="page1" class="page">
+            <h1>Do you have val?</h1>
+            <button id="yesBtn">Yes</button>
+            <button id="noBtn">No</button>
+        </div>
+
+        <!-- Page 2: Will you be my val? -->
+        <div id="page2" class="page hidden">
+            <h1>Hi baby, will you be my val?</h1>
+            <button id="yesValBtn">Yes</button>
+            <button id="noValBtn">No</button>
+            <!-- New message div -->
+            <div id="valMessage" class="hidden">
+                <p>See you on the 14th my Shaylaaa, P.S Come as you are wink wink</p>
+            </div>
+        </div>
+
+        <!-- Page 3: Break it off! -->
+        <div id="page3" class="page hidden">
+            <h1>Break it off!</h1>
+        </div>
+
+        <!-- Page 4: Go back and click yes abeg -->
+        <div id="page4" class="page hidden">
+            <h1>Go back and click yes abeg 😊</h1>
+            <button id="goBackBtn">Go Back</button>
+        </div>
+
+        <!-- Heart Container -->
+        <div id="heart" class="hidden">❤️</div>
+    </div>
+
+    <!-- Include canvas-confetti library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
