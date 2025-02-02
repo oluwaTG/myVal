@@ -36,12 +36,23 @@ button:hover {
     background-color: #ff4c4c;
 }
 
-#heart {
+/* #heart {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-30%, -50%);
     font-size: 50px;
+    color: red;
+    z-index: 10000;
+    animation: heartbeat 1s infinite;
+} */
+
+#heart {
+    font-size: 50px; /* Adjust size if needed */
+    position: absolute;
+    top: 30px; /* Move it higher */
+    left: 50%;
+    transform: translateX(-50%);
     color: red;
     z-index: 10000;
     animation: heartbeat 1s infinite;
